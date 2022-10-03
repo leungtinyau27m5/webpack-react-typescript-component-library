@@ -1,0 +1,35 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/react-module.min.js",
+  "types": "lib/types/index.d.ts",
+  "scripts": {
+    "build": "cross-env BUILD_ENV=umd-min webpack --config config/webpack.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/webpack-bundle-analyzer": "^4.4.2",
+    "antd": "^4.23.4",
+    "cross-env": "^7.0.3",
+    "esbuild-loader": "^2.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.1",
+    "ts-node": "^10.9.1",
+    "webpack": "^5.74.0",
+    "webpack-bundle-analyzer": "^4.6.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "^=4.7.0",
+    "antd": "^=4.23.4",
+    "react": "^=18.2.0",
+    "react-dom": "^=18.2.0"
+  }
+}

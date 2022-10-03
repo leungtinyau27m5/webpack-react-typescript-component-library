@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["dom", "es6"],
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "rootDir": "./src",
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "./lib/types",
+    "baseUrl": "."
+  },
+  "include": ["src"],
+  "exclude": ["test", "node_modules", "config"]
+}
